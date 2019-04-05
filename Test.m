@@ -4,25 +4,24 @@ figure;
 imshow(I)
 pause;
 
-close;
-figure;
+% close;
+% figure;
 I = imadjust(I,stretchlim(I),[]);
 imshow(I);
 
-pause;
-figure;
+% pause;
+% figure;
 I = imadjust(I,[],[],.41);
 imshow(I);
 
 
-pause;
+% pause;
 
 BW = imbinarize(I,'adaptive','ForegroundPolarity','dark','Sensitivity',0.4);
 figure; 
 imshowpair(I, BW, 'montage');
 
-pause;
-
-results = ocr(BW);
+% pause;
+results = ocr(BW, 'CharacterSet', 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', 'TextLayout','Block');
 results.Text
 close all; clear;
