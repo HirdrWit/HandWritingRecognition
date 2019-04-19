@@ -47,7 +47,7 @@ type app2 from terminal
 
 ## GUI Guide
 
-Turn Camera on for New Picture
+Reset Camera for New Picture
 ```
 New Image
 ```
