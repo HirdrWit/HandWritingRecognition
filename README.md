@@ -44,6 +44,31 @@ double click app2.mlap
 or
 type app2 from terminal
 ```
+
+## GUI Guide
+
+Turn Camera on for New Picture
+```
+New Image
+```
+Take Picture from Webcam
+```
+Capture Image
+```
+Upload Image from File System
+```
+Upload Image
+```
+OCR Using Gina Trained Handwriting
+```
+Trained Conversion
+```
+OCR Using MatLab's OCR Library
+```
+Untrained Conversion
+```
+
+
 ## Seeing the code
 From MatLab
 
