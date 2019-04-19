@@ -44,7 +44,14 @@ double click app2.mlap
 or
 type app2 from terminal
 ```
+## Seeing the code
+From MatLab
 
+```
+Click on OpenFolder Button (Top Left)
+Select app2.mlapp
+Click on CodeView in top right (default is DesignView)
+```
 
 
 ## Authors
