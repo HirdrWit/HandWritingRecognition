@@ -6,3 +6,4 @@ img = snapshot(cam1);
 closePreview(cam1);
 imshow(img);
 clear('cam1');
+clc;
